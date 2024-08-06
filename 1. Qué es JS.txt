@@ -1,1 +1,3 @@
-sadsad
+JavaScript es un lenguaje de programación que se utiliza principalmente para crear páginas web interactivas.
+Es decir, gracias a JavaScript, las páginas web pueden responder a las acciones del usuario,
+como hacer clic en un botón, mover el ratón o escribir en un campo de texto.
