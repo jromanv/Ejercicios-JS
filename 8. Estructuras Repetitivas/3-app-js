@@ -1,0 +1,25 @@
+//Ciclo For
+/*
+for (let i=0;i<=10;i++){
+    if(i===5){
+        console.log("Este Número es el 5")
+        continue;
+    }
+    console.log(`Número: ${i}`);
+}*/
+
+for (let i=1;i<=100;i++){
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log("FIZZBUZZ");
+        continue;
+    }
+    else if (i % 3 == 0){
+        console.log("fizz");
+        continue;
+    }
+    else if(i % 5 == 0){
+        console.log("buzz");
+        continue;
+    }
+    console.log(i);
+}
