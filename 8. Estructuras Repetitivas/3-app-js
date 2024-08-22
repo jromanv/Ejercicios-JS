@@ -21,5 +21,8 @@ for (let i=1;i<=100;i++){
         console.log("buzz");
         continue;
     }
-    console.log(i);
+    else{
+        console.log(i);
+    }
+    
 }

@@ -21,16 +21,16 @@ else{
     console.log("No es una nota válida");
 }*/
 
-let usuario = prompt("Ingrese su usuario");
-let contraseña = prompt("Ingrese su contraseña");
-if (usuario=="admin"){
-    if (contraseña == 2024){
-        console.log("Bienvenidos al Sistema");
+let usuario = prompt("Ingrese su Usuario");
+if (usuario=="José"){
+    let contraseña = prompt("Ingrese su Contraseña"); 
+    if (contraseña==2024){
+        console.log(`${usuario} Bienvenido al Sistema`);
     }
     else{
-        console.log("Error Contraseña inválida");
-    }
+        console.log(`Error Contraseña Inválida`);
+    }    
 }
 else{
-    console.log("Error Usuario inválido");
+    console.log(`Error Usuario Inválido`);
 }
